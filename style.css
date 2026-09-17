@@ -1,31 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 
-.my-image{
-	width: 200px;
-	height: auto;
-}
-
-a{
-	color: white;
-}
-
-a:hover{
-	color: red;
+* {
+	box-sizing: border-box;
 }
 
 body {
-  background: #13265C;
-  color: white;
-  font-family: 'IBM Plex Sans', sans-serif;
-  text-align: center;
+	margin: 0;
+	padding: 30px;
+	background: #13265C;
+	color: white;
+	font-family: 'IBM Plex Sans', sans-serif;
+	text-align: center;
 }
 
-ol,
-ul {
-  display: inline-block;
-  text-align: left;
+.page {
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
-#arzan:hover{
-	color: yellow;
+.header {
+	padding: 20px;
+	background: #1c377d;
+	border: 2px solid white;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+
+.header h1,
+.header p {
+	margin: 5px;
+}
+
+.navigation {
+	margin: 15px 0;
+	padding: 15px;
+	background: #0d1b45;
+	border: 1px solid white;
+}
+
+.navigation a {
+	display: inline-block;
+	margin: 0 15px;
+	padding: 8px 12px;
+	color: white;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+}
+
+.navigation a:hover {
+	color: red;
+
+}
+
+.middle {
+	margin-bottom: 15px;
+}
+
+.sidebar {
+	float: left;
+	width: 28%;
+	min-height: 260px;
+	padding: 20px;
+	background: #1c377d;
+	border: 1px solid white;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	text-align: left;
+}
+
+.sidebar h2,
+.aside h2 {
+	margin-top: 0;
+}
+
+.menu-item {
+	margin: 10px 0;
+	padding: 10px;
+	background: #0d1b45;
+	border-left: 4px solid white;
+}
+
+.menu-item:hover {
+	color: red;
+}
+
+.aside {
+	float: right;
+	width: 69%;
+	min-height: 260px;
+	padding: 30px;
+	background: #294b9b;
+	border: 1px solid white;
+	text-align: left;
+}
+
+.aside p {
+	line-height: 1.7;
+}
+
+.clear {
+	clear: both;
+}
+
+.footer {
+	padding: 15px;
+	background: #0d1b45;
+	border: 1px solid white;
+}
+
+.footer p {
+	margin: 0;
+}
+
