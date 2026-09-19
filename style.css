@@ -110,3 +110,15 @@ body {
 	margin: 0;
 }
 
+
+.navigation a[aria-current="page"] { border-bottom-color: white; }
+.navigation a:hover, .navigation a:focus-visible { color: #ffe28a; }
+.menu-item a { color: white; text-decoration: none; display: block; }
+.menu-item a:hover, .menu-item a:focus-visible { color: #ffe28a; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+@media (max-width: 600px) {
+  body { padding: 16px; }
+  .navigation { padding: 8px; }
+  .navigation a { margin: 4px; padding: 8px; }
+  .sidebar, .aside { float: none; width: 100%; min-height: 0; margin-bottom: 15px; padding: 20px; }
+}
